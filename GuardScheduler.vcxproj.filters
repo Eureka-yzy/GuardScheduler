@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{796C1973-5EA1-40D9-85DA-6AA6F6A5AE8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBBCA294-AE74-4389-989D-137892EED4C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{A433B18E-2590-496B-9ED6-428BC08DC9E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\App.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\Dialogs.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\Repository.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\Scheduling.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Dialogs.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\Repository.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\Scheduling.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\Ui.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\resource.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\GuardScheduler.rc"><Filter>Resource Files</Filter></ResourceCompile>
+    <None Include="guard_info.txt"><Filter>Resource Files</Filter></None>
+  </ItemGroup>
+</Project>
